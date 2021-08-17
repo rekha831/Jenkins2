@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test.EnableTestt"/>
+      <class name="Test.DataProviderTest"/>
+      <class name="Test.TestNgTest1"/>
+      <class name="Test.Priorities"/>
+      <class name="Test.InvocationCountTest"/>
+      <class name="Test.ParallelTest"/>
+      <class name="Test.ReportTest"/>
+      <class name="Test.DependsOnTest"/>
+      <class name="Test.GroupsTest"/>
+      <class name="Test.ExpectedExceptionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
